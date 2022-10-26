@@ -1,0 +1,154 @@
+{
+  "classList": [
+    {
+      "firstname": "Johan",
+      "lastname": "Bäcklin",
+      "belongsTo": "2",
+      "discord": "juhään",
+      "github": "johanbacklin",
+      "personalityType": "grön",
+      "skills": "Volvosteget, träning, javascript",
+      "positiveExperience": "Självklart",
+      "explanation": "Väldigt kul att lära sig mer om programering",
+      "hash": "809092263d335903c7730732a7c8c32de0aa27cf9b06f0edf3b24b9aa89d445d"
+    },
+    {
+      "firstname": "Terese",
+      "lastname": "Boderus",
+      "belongsTo": "2",
+      "discord": "Terese",
+      "github": "TereseBo",
+      "personalityType": "blå",
+      "skills": "karyotypering,cellodling,vävning",
+      "positiveExperience": "neej",
+      "explanation": "Allt är väldigt svårt",
+      "hash": "aedc21692333042be0f5c46ad27c0b940a59c97623075ef2b1d35a8b7cbbbba6"
+    },
+    {
+      "firstname": "Mika",
+      "lastname": "Munterud",
+      "belongsTo": "7",
+      "discord": "Mumsizzz#9761",
+      "github": "Mumsizzz",
+      "personalityType": "röd",
+      "skills": "Designtekniker, Klättring, Reseledare",
+      "positiveExperience": "Vet ej",
+      "explanation": "Får se vart detta leder någonstans",
+      "hash": "e4c6391194e00f5a36901f7fc9a360576536aa1ccea818fa052cb1b28b06d582"
+    },
+    {
+      "firstname": "Araceli",
+      "lastname": "Prieto Gallego",
+      "belongsTo": "3",
+      "discord": "ara.exe#8584",
+      "github": "arapg",
+      "personalityType": "grön",
+      "skills": "matematik, html, css, kreativt skrivande",
+      "positiveExperience": "Ja?",
+      "explanation": "Det är kul att lära sig nya saker",
+      "hash": "c89ccde51a0db4746504ec1ad9e285d02f88d878646a6e34fe9d55ad761db90f"
+    },
+    {
+      "firstname": "Kenneth",
+      "lastname": "Ellebring",
+      "belongsTo": "6",
+      "discord": "Mofflan/Defflan - Kenneth#6555",
+      "github": "KennethEllebring",
+      "personalityType": "grön",
+      "skills": "Höghöjds-utbildning, Brandsäkerhets-utbildning, Säljgrundkurs, VVS-tekniker",
+      "positiveExperience": "Ja",
+      "explanation": "Gillar att koda och tycker det är roligt",
+      "hash": "e2aec265f3d51c836bb65594ff6972daf06ef609961cb635020a8509288bee82"
+    },
+    {
+      "firstname": "Robin",
+      "lastname": "Lock",
+      "belongsTo": "1",
+      "discord": "RobinRilleLock",
+      "github": "RobinRilleLock",
+      "personalityType": "röd",
+      "skills": "Jenssen GY,  Träning,  Cocktails",
+      "positiveExperience": "Alltid!",
+      "explanation": "Kul attt skola om sig till nåågot man gillar",
+      "hash": "937757e8526c0746f9a7babc9a19ed01a38e0d0bd26400add4f1ab6081aa3bf6"
+    },
+    {
+      "firstname": "Elin",
+      "lastname": "Horn",
+      "belongsTo": "4",
+      "discord": "-",
+      "github": "Elinhorn",
+      "personalityType": "grön",
+      "skills": "Träning, AI, fritidspedagog",
+      "positiveExperience": "Ja",
+      "explanation": "kul att lära sig nytt",
+      "hash": "e6c1194d52c8d8262294d87f04e0befdb0f5e83bfc4c59edb145c5fce4947728"
+    },
+    {
+      "firstname": "Alexander",
+      "lastname": "Wiklöw",
+      "belongsTo": "3",
+      "discord": "Speedster#4680",
+      "github": "AlexanderWiklow",
+      "personalityType": "gul",
+      "skills": "språk, webbutveckling, jonglera",
+      "positiveExperience": "yes",
+      "explanation": "man utvecklas",
+      "hash": "558e83d34809cc063344f3b8a05243b4466444c6098d61645ef1e719ebf8dffd"
+    },
+    {
+      "firstname": "Linus",
+      "lastname": "Härén",
+      "belongsTo": "1",
+      "discord": "Haren#2122",
+      "github": "HarenIO",
+      "personalityType": "blå",
+      "skills": "Kampsport, logistik, prokrastinering",
+      "positiveExperience": "Ja",
+      "explanation": "Kul att utforska intressen",
+      "hash": "903cbc22b5c6346c708fd98fd313819be7f9788c6fa75722a67183571c0ae200"
+    },
+    {
+      "firstname": "Alex",
+      "lastname": "Saxena",
+      "discord": "HisLordship#3680",
+      "github": "AlexSaxena",
+      "personalityType": "gul",
+      "birthYear": "1994",
+      "zodiac": {
+        "name": "Sagittarius",
+        "element": "fire",
+        "stone": "topaz",
+        "symbol": "♐",
+        "dateMin": "2000-11-23",
+        "dateMax": "2000-12-21"
+      },
+      "belongsTo": "3",
+      "skills": "Kassahantering,Kundhantering,Schemaläggning, Administration",
+      "positiveExperience": "Ja",
+      "explanation": "Jag får lära mig mer om Javascript!",
+      "hash": "b31c23c45c59a88123f52ec2974454e38d49652a22a8b35040ed15c34dac5f4a"
+    },
+    {
+      "firstname": "Peter",
+      "lastname": "Karlsson",
+      "discord": "rymdpeter#7078",
+      "github": "rymdpeter",
+      "personalityType": "blå",
+      "birthYear": "1983",
+      "zodiac": {
+        "name": "Gemini",
+        "element": "air",
+        "stone": "agate",
+        "symbol": "♊",
+        "dateMin": "2000-05-22",
+        "dateMax": "2000-06-21"
+      },
+      "belongsTo": "admin, teachers-lounge",
+      "skills": "elbas, programmering, git, webpack, css",
+      "positiveExperience": "ja",
+      "explanation": "Jag har nästan alltid kul!",
+      "hash": "ffea0920496c30d842af28375a308aaea11cbcad0113aa37f7eceaf538fb43a1"
+    }
+  ]
+}

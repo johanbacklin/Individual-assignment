@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Examinationsuppgift!</title>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.html" />
+  </head>
+  <body>
+    <div class="container-home">
+      <div class="nav-wrapper">
+        <div class="left-side">
+          <div class="nav-link-wrapper">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="nav-link-wrapper">
+            <a href="about.html">About</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <table>
+        <h2>Frontend 1: Examinationsuppgift</h2>
+        <section>
+          <ul>
+            <p>
+              <!--  BESKRIVNING AV PROBLEMET I ALLMÄNHET -->
+              Den här uppgiften är utförd så att en person ska kunna sortera och
+              visa upp sin klasslista på olika sätt, utan att läraren finns med.
+              Sedan ska man även kunna få fram en slumpmässig elev från
+              klasslistan, som man sen kan använda sig av när man behöver lite
+              extra inspiration från andra elever och deras egna repon från
+              github. Till sist så var ett av problemen att man skulle få fram
+              läraren från klasslistan, utan att man ska behöva leta i
+              klasslistan.
+            </p>
+
+            <p>
+              <!--  SPECIFIKATIONER OCH UTMANINGAR -->
+              Utmaningen med denna uppgift är att på ett smidigt sätt ta ut
+              datan från en så kallad JSON-file och sedan kunna använda sig av
+              den i sin kod. Men också att kunna sortera och visa upp datan på
+              olika sätt. Problem kommer även att kunna uppstå när man ska få
+              fram en slumpmässig elev från klasslistan. Största utmaningen är
+              nog att kunna få fram läraren från klasslistan utan att behöva
+              leta i klasslistan på ett smidigt sett, utan krångel.
+            </p>
+
+            <p>
+              <!--  LÖSNING MED KOD -->
+              För att lösa problemet med att få fram läraren från klasslistan så
+              tror jag man måste leta efter ett sett att gå igenom hela arrayen
+              som ligger i JSON-filen. Sedan kunna använda den för att sortera
+              ut de olika värdena så att inte eleverna skrivs ut i outputen.
+              Samma sett kommer bheövas när man ska försöka få ut hela
+              klasslista så inte läraren skickas ut i outputen. Kommer
+              förmodligen behövas ett if-statment, som kollar om indexvärdet på
+              läraren finns. Om så är fallet retunera det värdet som finns på
+              indexet. Så den inte följer med i outputen. Sista problemet blir
+              då att få fram en slumpmässig elev och att hitta något slag av
+              loop som slumpmässigt skickar ut en elev från klasslistan. Som
+              randomiserar outputen till sidan. Kommer förmodligen använda mig
+              av for-loop.
+            </p>
+            <!--OUTPUT-->
+            <p>
+              Jag tror det kommer lösas lättast om man gör 3 stycken olika
+              knappar. Dem tre knapparna ska vara kopplade till olika funktioner
+              som tar ut värdena ur jsonfilerna. Så när du klickar på dem ska
+              outputen komma ut på sidan snyggt med lösningen.
+              <!---CLEAR-->
+              Sedan kommer jag att fixa en 4:e knapp som man ska kunna rensa
+              sidan om man skulle tycka det blev rörigt med all data som har
+              kommit upp från de tidigare knapptryckningarna. Det löser man med
+              en funktion som skriver ut en tomsträng eller liknande.
+            </p>
+          </ul>
+        </section>
+
+        <section data-source="content"></section>
+      </table>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

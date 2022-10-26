@@ -1,0 +1,211 @@
+body {
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+  /* background-color: #33475b; */
+}
+body p {
+  color: rgb(129, 109, 26);
+  font-size: 1em;
+  line-height: 1.1em;
+  justify-content: center;
+  display: flex;
+}
+
+body section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+.bg {
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 10px; /* Flyttar Home och About */
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.left-side {
+  display: flex;
+}
+
+.container-home {
+  background-color: transparent;
+  padding: 15px; /* Dessa går att ändra på storleken på själva "alternativ rutan */
+  font-size: 15px;
+  border: none;
+  display: flex;
+}
+
+.nav-wrapper {
+  display: flex;
+  color: lightgray;
+}
+.nav-link-wrapper {
+  display: flex;
+  margin: auto;
+  color: lightgray;
+  padding: 15px;
+  font-size: 15px;
+  border: none; /* Ingen "ram" runt */
+}
+
+.nav-link-wrapper > a {
+  /* Denna ändrar färgen på Home och About */
+  color: whitesmoke;
+  text-decoration: ; /* Tar bort understräcken om du har "none" jag tyckte det blev tydligare med dem */
+  /*  border: 1px solid lightslategray;
+  border-radius: 100px; */ /* tar bort ramen runt */
+  padding: 20px;
+  font-size: 20px;
+}
+
+.nav-link-wrapper:hover {
+  padding: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 100px; /* Rundar av hörnen på knappen */
+  border: 1px solid lightslategray;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: rgb(129, 109, 26);
+  font-size: 1em;
+  line-height: 1.1em;
+  padding: 50px; /* Dessa går att ändra på storleken på själva "alternativ rutan */
+  font-size: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: solid;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  /* a: menas med en <a search i html-filen */
+  background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.btnClear {
+  background-color: transparent;
+  color: white;
+  padding: 20px; /* Dessa går att ändra på storleken på själva CLEAR rutan */
+  font-size: 20px;
+  border: none;
+}
+
+.btnClear:hover {
+  padding: 50px;
+  font-size: 50px;
+  background-color: transparent;
+  border-radius: 50px; /* Rundar av hörnen på knappen */
+  border: 1px solid lightslategray;
+}
+/* Är hela klass listan */
+.btn1 {
+  background-color: transparent; /*  */
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* btn2 i dropdownmenyn LÄRAR KNAPPEN */
+.btn2 {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Randomize knappen i dropdown menyn */
+.btnRandom {
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* TEXT FRÅN OUTPUT */
+.output {
+  color: rgb(129, 109, 26);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+/* OUTPUT2 FÖR LÄRARKNAPPEN */
+.output2 {
+  color: rgb(129, 109, 26);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+/* FÖR ATT FÅ TILL SISTA <A TAGGEN SOM GÅR TILL TEACHER-LOUNGE */
+.output2 a {
+  color: rgb(129, 109, 26);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.output3 {
+  color: rgb(129, 109, 26);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.output3 a {
+  color: rgb(129, 109, 26);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none; /* Tar bort understräcken om du har "none" */
+}
